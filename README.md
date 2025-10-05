@@ -67,9 +67,3 @@ npx http-server
 ├── styles.css          # Custom styles
 └── images/             # Image assets
 ```
-
-## Live Demo
-Visit the live website: [https://jdw14.github.io/John-Wrightsman-Portfolio/](https://jdw14.github.io/John-Wrightsman-Portfolio/)
-
-## Repository
-View the source code: [https://github.com/jdw14/John-Wrightsman-Portfolio](https://github.com/jdw14/John-Wrightsman-Portfolio)
