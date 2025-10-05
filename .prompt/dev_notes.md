@@ -139,7 +139,7 @@ This document logs the AI prompts used during the development of this personal p
 ### Where AI Helped Save Time
 AI assistance was incredibly valuable in several areas that would have taken significantly longer to implement manually:
 
-1. **Bootstrap Integration**: The AI quickly provided proper Bootstrap 5.3.2 integration with CDN links, responsive navigation, and component usage. This saved hours of reading documentation and trial-and-error.
+1. **Bootstrap Integration**: The AI quickly provided proper Bootstrap integration with CDN links, responsive navigation, and component usage. This saved hours of reading documentation and trial-and-error.
 
 2. **Form Validation**: Creating the complex contact form with HTML5 validation, JavaScript password confirmation, and proper accessibility attributes would have required extensive research and testing. The AI provided a complete, working solution immediately.
 
