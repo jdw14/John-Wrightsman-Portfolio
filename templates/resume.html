@@ -6,32 +6,32 @@
     <title>Resume - John Wrightsman</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
-    <link href="styles.css" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/styles.css') }}" rel="stylesheet">
 </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
         <div class="container">
-            <a class="navbar-brand fw-bold" href="index.html">John Wrightsman</a>
+            <a class="navbar-brand fw-bold" href="{{ url_for('index') }}">John Wrightsman</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home</a>
+                        <a class="nav-link" href="{{ url_for('index') }}">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="about.html">About Me</a>
+                        <a class="nav-link" href="{{ url_for('about') }}">About Me</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link active" href="resume.html">Resume</a>
+                        <a class="nav-link active" href="{{ url_for('resume') }}">Resume</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="projects.html">Projects</a>
+                        <a class="nav-link" href="{{ url_for('projects') }}">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
+                        <a class="nav-link" href="{{ url_for('contact') }}">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -51,7 +51,7 @@
                             <span class="me-4"><i class="fas fa-phone me-1"></i>317-502-8327</span>
                             <span><i class="fas fa-map-marker-alt me-1"></i>Bloomington, IN</span>
                         </div>
-                        <a href="John Wrightsman Resume.pdf" class="btn btn-outline-primary" download>
+                        <a href="{{ url_for('static', filename='images/John Wrightsman Resume.pdf') }}" class="btn btn-outline-primary" download>
                             <i class="fas fa-download me-2"></i>Download PDF Resume
                         </a>
                     </div>
